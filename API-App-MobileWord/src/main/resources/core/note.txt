@@ -1,0 +1,16 @@
+/**
+     * POST: Giử dữ liệu lên máy chủ
+     * GET: Lấy dữ liệu từ máy chủ
+     * DELETE: Xóa một resource
+     * PUT: Cập nhật một resource
+     *
+     * @FormUrlEncode: đều này chỉ ra rằng MIME được hiểu là application/x-www-form-urlendcoded
+     * @Field: tên field, sau đó sẽ được chuyển sang string, nếu null thì retrofit sẽ bỏ qua và không gửi đi.
+     * @POST: phương thức thực hiện request.
+     * 
+     * @Query: Truy vấn lấy kết quả
+     * @Field: Trường dữ liệu
+     * @QueryMap: Đối truyền vào là một map dữ liệu cần truy vấn
+     * @Path /{x}/: đường dẫn ngẫu nhiên thay thế x
+     * @Body: đẩy Một đối tượng 
+     */
